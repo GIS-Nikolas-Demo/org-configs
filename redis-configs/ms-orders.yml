@@ -1,0 +1,6 @@
+﻿spring:
+  redis:
+    host: redis.ms-orders.internal
+    port: 6379
+    timeout: 2000
+    password: ${REDIS_PASSWORD}  # opcional según tu estándar
