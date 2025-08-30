@@ -5,7 +5,7 @@
     timeout: 2000
     password: ${REDIS_PASSWORD}  # opcional según tu estándar
     redisson:
-      connectionMinimumIdleSize: Nuevo
+      connectionMinimumIdleSize: 10
       connectionPoolSize: 100
       idleConnectionTimeout: 10000
       pingTimeout: 1000
