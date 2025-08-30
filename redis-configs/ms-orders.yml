@@ -4,3 +4,8 @@
     port: 6379
     timeout: 2000
     password: ${REDIS_PASSWORD}  # opcional según tu estándar
+    redisson:
+      connectionMinimumIdleSize: 10
+      connectionPoolSize: 100
+      idleConnectionTimeout: 10000
+      pingTimeout: 1000
