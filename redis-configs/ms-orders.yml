@@ -11,4 +11,4 @@
       pingTimeout: 1000
       config: c
       address: redis://redis.ms-orders.internal:6379
-      timeout: 2000
+      
